@@ -6036,3 +6036,633 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.24-03.22.56:954][470]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
 [2021.05.24-03.22.56:954][470]LogContentValidation: Display: MapBuildDataRegistry /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData 유효성 검사
 [2021.05.24-03.22.56:954][470]LogContentValidation: Display: World /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap 유효성 검사
+[2021.05.24-03.23.15:968][732]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.23.15:976][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.23.15:976][732]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:23:15)
+[2021.05.24-03.23.15:977][732]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.23.15:985][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008673s)
+[2021.05.24-03.23.15:987][732]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.23.15:987][732]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2021.05.24-03.23.15:987][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.010282s)
+[2021.05.24-03.23.16:006][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.05.24-03.23.16:007][732]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.23.16:007][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.23.16:007][732]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.23.16:007][732]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.23.16:021][732]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.23.16:021][732]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.23.16:059][732]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.23.16:060][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.23.16:060][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.23.16:060][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.23.16:060][732]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.23.16:060][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.23.16:060][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.23.16:073][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.23.16:073][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.23.16:073][732]LogInit: FAudioDevice initialized.
+[2021.05.24-03.23.16:073][732]LogAudio: Display: Audio Device (ID: 71) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.23.16:080][732]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.23.16:081][732]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.23.16:081][732]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.23.16:081][732]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.23.16:082][732]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.23.16
+[2021.05.24-03.23.16:082][732]LogWorld: Bringing up level for play took: 0.001150
+[2021.05.24-03.23.16:082][732]LogOnline: OSS: Creating online subsystem instance for: :Context_176
+[2021.05.24-03.23.16:084][732]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.23.16:084][732]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.23.16:084][732]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.23.16:084][732]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.23.16:084][732]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.23.16:085][732]PIE: 에디터에서 플레이 총 시작 시간 0.112초입니다.
+[2021.05.24-03.23.20:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.23.20:608][  0]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.23.20:608][  0]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.23.20:608][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.23.20:617][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.23.20:621][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.23.20:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.23.20:636][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.23.20:637][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.23.20:655][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.05.24-03.23.20:667][  1]LogPlayLevel: Display: Destroying online subsystem :Context_176
+[2021.05.24-03.23.23:784][188]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.23.23:792][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.23.23:793][188]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:23:23)
+[2021.05.24-03.23.23:793][188]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.23.23:801][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008689s)
+[2021.05.24-03.23.23:803][188]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.23.23:803][188]LogPlayLevel: PIE: World Init took: (0.001610s)
+[2021.05.24-03.23.23:803][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.010434s)
+[2021.05.24-03.23.23:823][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.05.24-03.23.23:823][188]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.23.23:823][188]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.23.23:823][188]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.23.23:824][188]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.23.23:824][188]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.23.23:836][188]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.23.23:836][188]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.23.23:873][188]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.23.23:873][188]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.23.23:874][188]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.23.23:874][188]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.23.23:874][188]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.23.23:874][188]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.23.23:874][188]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.23.23:886][188]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.23.23:886][188]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.23.23:886][188]LogInit: FAudioDevice initialized.
+[2021.05.24-03.23.23:886][188]LogAudio: Display: Audio Device (ID: 72) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.23.23:893][188]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.23.23:894][188]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.23.23:894][188]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.23.23:894][188]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.23.23:895][188]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.23.23
+[2021.05.24-03.23.23:895][188]LogWorld: Bringing up level for play took: 0.001070
+[2021.05.24-03.23.23:895][188]LogOnline: OSS: Creating online subsystem instance for: :Context_177
+[2021.05.24-03.23.23:896][188]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.23.23:896][188]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.23.23:896][188]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.23.23:897][188]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.23.23:897][188]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.23.23:898][188]PIE: 에디터에서 플레이 총 시작 시간 0.109초입니다.
+[2021.05.24-03.23.27:137][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.23.27:137][379]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.23.27:138][379]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.23.27:138][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.23.27:145][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.23.27:148][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.23.27:162][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.23.27:162][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.23.27:163][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.23.27:181][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.05.24-03.23.27:193][380]LogPlayLevel: Display: Destroying online subsystem :Context_177
+[2021.05.24-03.23.28:394][451]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.24.11:919][622]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.24.11:951][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.05.24-03.24.13:154][688]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.24.13:165][688]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.24.13:169][688]LogWorld: UWorld::CleanupWorld for World_149, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.24.13:169][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.13:174][688]LogWorld: UWorld::CleanupWorld for World_148, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.24.13:174][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.14:059][739]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.24.14:067][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.24.14:067][739]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:24:14)
+[2021.05.24-03.24.14:068][739]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.24.14:076][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008482s)
+[2021.05.24-03.24.14:077][739]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.24.14:077][739]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2021.05.24-03.24.14:077][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.009453s)
+[2021.05.24-03.24.14:098][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.05.24-03.24.14:099][739]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.24.14:099][739]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.24.14:099][739]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.24.14:099][739]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.24.14:111][739]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.24.14:111][739]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.24.14:150][739]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.24.14:150][739]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.24.14:150][739]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.24.14:150][739]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.24.14:150][739]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.24.14:150][739]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.24.14:150][739]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.24.14:164][739]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.24.14:164][739]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.24.14:164][739]LogInit: FAudioDevice initialized.
+[2021.05.24-03.24.14:164][739]LogAudio: Display: Audio Device (ID: 73) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.24.14:172][739]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.24.14:173][739]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.24.14:173][739]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.24.14:173][739]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.24.14:174][739]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.24.14
+[2021.05.24-03.24.14:174][739]LogWorld: Bringing up level for play took: 0.001078
+[2021.05.24-03.24.14:174][739]LogOnline: OSS: Creating online subsystem instance for: :Context_180
+[2021.05.24-03.24.14:176][739]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.24.14:176][739]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.24.14:176][739]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.24.14:177][739]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.24.14:177][739]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.24.14:177][739]PIE: 에디터에서 플레이 총 시작 시간 0.114초입니다.
+[2021.05.24-03.24.19:806][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.24.19:806][ 74]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.24.19:806][ 74]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.24.19:807][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.19:813][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.24.19:817][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.19:832][ 74]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-03.24.19:833][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.24.19:834][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.24.19:849][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.24.19:852][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.05.24-03.24.19:882][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_180
+[2021.05.24-03.24.22:451][229]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.24.34:807][821]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.24.34:835][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.05.24-03.24.35:880][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.24.35:925][877]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI0E3892B940A80FC2D68D46AACB6D8596.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.24.35:942][877]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.24.35:942][877]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.24.36:924][935]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.24.36:930][935]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.24.36:934][935]LogWorld: UWorld::CleanupWorld for World_151, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.24.36:934][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.36:939][935]LogWorld: UWorld::CleanupWorld for World_150, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.24.36:939][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.37:822][986]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.24.37:834][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.24.37:834][986]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:24:37)
+[2021.05.24-03.24.37:834][986]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.24.37:844][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010215s)
+[2021.05.24-03.24.37:845][986]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.24.37:845][986]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2021.05.24-03.24.37:845][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011463s)
+[2021.05.24-03.24.37:866][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.05.24-03.24.37:867][986]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.24.37:867][986]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.24.37:867][986]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.24.37:868][986]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.24.37:868][986]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.24.37:880][986]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.24.37:880][986]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.24.37:919][986]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.24.37:919][986]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.24.37:919][986]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.24.37:919][986]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.24.37:919][986]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.24.37:919][986]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.24.37:919][986]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.24.37:932][986]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.24.37:932][986]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.24.37:932][986]LogInit: FAudioDevice initialized.
+[2021.05.24-03.24.37:932][986]LogAudio: Display: Audio Device (ID: 74) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.24.37:942][986]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.24.37:943][986]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.24.37:944][986]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.24.37:944][986]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.24.37:944][986]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.24.37
+[2021.05.24-03.24.37:944][986]LogWorld: Bringing up level for play took: 0.001075
+[2021.05.24-03.24.37:944][986]LogOnline: OSS: Creating online subsystem instance for: :Context_183
+[2021.05.24-03.24.37:946][986]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.24.37:946][986]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.24.37:946][986]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.24.37:947][986]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.24.37:947][986]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.24.37:947][986]PIE: 에디터에서 플레이 총 시작 시간 0.119초입니다.
+[2021.05.24-03.24.42:527][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.24.42:527][258]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.24.42:527][258]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.24.42:528][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.42:537][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.24.42:541][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.24.42:556][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-03.24.42:557][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.24.42:558][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.24.42:574][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.24.42:577][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.05.24-03.24.42:607][260]LogPlayLevel: Display: Destroying online subsystem :Context_183
+[2021.05.24-03.24.43:872][335]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.25.15:253][168]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.25.15:281][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.05.24-03.25.16:633][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.25.16:673][241]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI228C98A846A23A45809707B5893E2437.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.25.16:688][241]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.25.16:689][241]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.25.16:800][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.25.16:841][247]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI25F3117248539200B6060FA612AF793A.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.25.16:853][247]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.25.16:853][247]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.25.17:050][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.25.17:090][258]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UIE900374543AE7663A3C34CB07B66A482.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.25.17:103][258]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.25.17:103][258]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.25.18:598][347]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.25.18:604][347]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.25.18:608][347]LogWorld: UWorld::CleanupWorld for World_154, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.25.18:608][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.18:612][347]LogWorld: UWorld::CleanupWorld for World_153, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.25.18:612][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.19:413][393]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.25.19:421][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.25.19:421][393]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:25:19)
+[2021.05.24-03.25.19:421][393]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.25.19:432][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011387s)
+[2021.05.24-03.25.19:433][393]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.25.19:433][393]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2021.05.24-03.25.19:433][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012618s)
+[2021.05.24-03.25.19:455][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.05.24-03.25.19:456][393]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.25.19:456][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.25.19:456][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.25.19:457][393]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.25.19:457][393]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.25.19:469][393]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.25.19:469][393]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.25.19:508][393]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.25.19:508][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.25.19:508][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.25.19:508][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.25.19:508][393]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.25.19:508][393]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.25.19:508][393]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.25.19:522][393]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.25.19:522][393]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.25.19:522][393]LogInit: FAudioDevice initialized.
+[2021.05.24-03.25.19:522][393]LogAudio: Display: Audio Device (ID: 75) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.25.19:528][393]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.25.19:529][393]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.25.19:529][393]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.25.19:529][393]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.25.19:531][393]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.25.19
+[2021.05.24-03.25.19:531][393]LogWorld: Bringing up level for play took: 0.001067
+[2021.05.24-03.25.19:531][393]LogOnline: OSS: Creating online subsystem instance for: :Context_186
+[2021.05.24-03.25.19:532][393]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.25.19:532][393]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.25.19:532][393]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.25.19:532][393]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.25.19:532][393]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.25.19:534][393]PIE: 에디터에서 플레이 총 시작 시간 0.117초입니다.
+[2021.05.24-03.25.24:597][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.25.24:597][694]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.25.24:597][694]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.25.24:597][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.24:605][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.25.24:609][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.24:623][694]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-03.25.24:623][694]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.25.24:624][694]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.25.24:640][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.25.24:642][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.05.24-03.25.24:672][696]LogPlayLevel: Display: Destroying online subsystem :Context_186
+[2021.05.24-03.25.26:390][798]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.25.40:954][517]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.25.40:982][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.05.24-03.25.41:611][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.25.41:650][548]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UIA993981F4E7D9FC260A357B2F9CECCB4.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.25.41:669][548]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.25.41:669][548]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.25.42:920][622]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.25.42:926][622]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.25.42:930][622]LogWorld: UWorld::CleanupWorld for World_159, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.25.42:930][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.42:936][622]LogWorld: UWorld::CleanupWorld for World_158, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.25.42:936][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.43:754][669]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.25.43:761][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.25.43:761][669]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:25:43)
+[2021.05.24-03.25.43:761][669]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.25.43:775][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013578s)
+[2021.05.24-03.25.43:776][669]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.25.43:776][669]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2021.05.24-03.25.43:776][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014868s)
+[2021.05.24-03.25.43:799][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.05.24-03.25.43:800][669]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.25.43:800][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.25.43:800][669]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.25.43:800][669]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.25.43:813][669]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.25.43:813][669]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.25.43:851][669]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.25.43:851][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.25.43:851][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.25.43:851][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.25.43:851][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.25.43:851][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.25.43:852][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.25.43:865][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.25.43:865][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.25.43:865][669]LogInit: FAudioDevice initialized.
+[2021.05.24-03.25.43:865][669]LogAudio: Display: Audio Device (ID: 76) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.25.43:875][669]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.25.43:877][669]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.25.43:877][669]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.25.43:877][669]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.25.43:877][669]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.25.43
+[2021.05.24-03.25.43:878][669]LogWorld: Bringing up level for play took: 0.001082
+[2021.05.24-03.25.43:878][669]LogOnline: OSS: Creating online subsystem instance for: :Context_189
+[2021.05.24-03.25.43:879][669]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.25.43:879][669]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.25.43:879][669]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.25.43:880][669]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.25.43:880][669]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.25.43:881][669]PIE: 에디터에서 플레이 총 시작 시간 0.123초입니다.
+[2021.05.24-03.25.50:357][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.25.50:357][ 54]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.25.50:357][ 54]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.25.50:357][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.50:368][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.25.50:372][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.25.50:386][ 54]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-03.25.50:386][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.25.50:387][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.25.50:403][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.25.50:406][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.05.24-03.25.50:418][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_189
+[2021.05.24-03.25.51:838][139]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.26.00:501][595]LogEditorTransaction: Undo 드래그 앤 드롭 위젯
+[2021.05.24-03.26.05:352][817]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.26.05:381][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.05.24-03.26.06:108][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.26.06:149][854]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI8CD0182046415CDAD0B5A198ED94DA06.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.26.06:163][854]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.26.06:163][854]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.26.10:882][124]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.26.10:892][124]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.26.10:897][124]LogWorld: UWorld::CleanupWorld for World_162, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.26.10:897][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.26.10:902][124]LogWorld: UWorld::CleanupWorld for World_161, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.26.10:902][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.26.11:535][160]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.26.11:543][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.26.11:543][160]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:26:11)
+[2021.05.24-03.26.11:543][160]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.26.11:556][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013452s)
+[2021.05.24-03.26.11:557][160]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.26.11:557][160]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2021.05.24-03.26.11:557][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014667s)
+[2021.05.24-03.26.11:579][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.05.24-03.26.11:580][160]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.26.11:580][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.26.11:580][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.26.11:581][160]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.26.11:581][160]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.26.11:593][160]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.26.11:593][160]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.26.11:631][160]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.26.11:631][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.26.11:632][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.26.11:632][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.26.11:632][160]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.26.11:632][160]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.26.11:632][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.26.11:645][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.26.11:645][160]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.26.11:645][160]LogInit: FAudioDevice initialized.
+[2021.05.24-03.26.11:645][160]LogAudio: Display: Audio Device (ID: 77) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.26.11:652][160]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.26.11:654][160]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.26.11:654][160]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.26.11:654][160]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.26.11:654][160]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.26.11
+[2021.05.24-03.26.11:655][160]LogWorld: Bringing up level for play took: 0.001088
+[2021.05.24-03.26.11:655][160]LogOnline: OSS: Creating online subsystem instance for: :Context_192
+[2021.05.24-03.26.11:656][160]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.26.11:656][160]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.26.11:656][160]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.26.11:657][160]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.26.11:657][160]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.26.11:658][160]PIE: 에디터에서 플레이 총 시작 시간 0.119초입니다.
+[2021.05.24-03.26.18:588][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.26.18:588][573]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.26.18:588][573]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.26.18:588][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.26.18:595][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.26.18:600][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.26.18:616][573]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-03.26.18:616][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.26.18:617][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.26.18:633][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.26.18:635][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.05.24-03.26.18:664][575]LogPlayLevel: Display: Destroying online subsystem :Context_192
+[2021.05.24-03.26.19:980][653]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.26.24:368][892]LogEditorTransaction: Undo 위젯 제거
+[2021.05.24-03.27.13:054][701]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.27.13:067][701]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.27.13:072][701]LogWorld: UWorld::CleanupWorld for World_165, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.27.13:072][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.13:080][701]LogWorld: UWorld::CleanupWorld for World_164, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.27.13:080][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.13:809][742]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.27.13:819][742]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2021.05.24-03.27.13:820][742]LogPlayLevel: [PlayLevel] Compiling player_UI before play...
+[2021.05.24-03.27.13:858][742]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.05.24-03.27.13:861][742]LogPlayLevel: PlayLevel: Blueprint regeneration took 41 ms (1 blueprints)
+[2021.05.24-03.27.13:861][742]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:27:13)
+[2021.05.24-03.27.13:861][742]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.27.13:872][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011473s)
+[2021.05.24-03.27.13:873][742]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.27.13:874][742]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2021.05.24-03.27.13:874][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012690s)
+[2021.05.24-03.27.13:892][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.05.24-03.27.13:892][742]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2021.05.24-03.27.13:892][742]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.27.13:893][742]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.27.13:893][742]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.27.13:893][742]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.27.13:905][742]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.27.13:905][742]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.27.13:943][742]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.27.13:943][742]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.27.13:943][742]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.27.13:943][742]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.27.13:943][742]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.27.13:943][742]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.27.13:943][742]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.27.13:944][742]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.27.13:944][742]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.27.13:944][742]LogInit: FAudioDevice initialized.
+[2021.05.24-03.27.13:944][742]LogAudio: Display: Audio Device (ID: 78) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.27.13:961][742]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.27.13:962][742]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.27.13:962][742]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.27.13:962][742]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.27.13:963][742]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.27.13
+[2021.05.24-03.27.13:963][742]LogWorld: Bringing up level for play took: 0.001091
+[2021.05.24-03.27.13:963][742]LogOnline: OSS: Creating online subsystem instance for: :Context_195
+[2021.05.24-03.27.13:965][742]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.27.13:965][742]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.27.13:965][742]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.27.13:966][742]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.27.13:966][742]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.27.13:967][742]PIE: 에디터에서 플레이 총 시작 시간 0.153초입니다.
+[2021.05.24-03.27.16:326][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.27.16:326][881]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.27.16:326][881]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.27.16:326][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.16:335][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.27.16:339][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.16:353][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.27.16:353][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.27.16:354][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.27.16:372][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.05.24-03.27.16:404][883]LogPlayLevel: Display: Destroying online subsystem :Context_195
+[2021.05.24-03.27.17:253][933]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/haze/UI/player_UI.player_UI
+[2021.05.24-03.27.22:705][233]LogEditorTransaction: Undo 위젯 제거
+[2021.05.24-03.27.23:767][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.27.23:809][288]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI6A9E3DC74EA1F29C65F87AB7833F9BBE.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.27.23:826][288]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.27.23:826][288]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.27.33:048][791]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.27.33:088][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.05.24-03.27.33:939][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.27.33:979][835]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI7EF6F1F145EB0779C71417818BBFCC4B.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.27.33:995][835]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.27.33:995][835]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.27.39:001][132]BlueprintLog: New page: player_UI 컴파일
+[2021.05.24-03.27.39:038][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.05.24-03.27.39:549][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/haze/UI/player_UI" FILE="../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset" SILENT=true
+[2021.05.24-03.27.39:591][155]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/player_UI7277EF9F4BC285C359F5CA8412B9E37A.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/haze/UI/player_UI.uasset'
+[2021.05.24-03.27.39:605][155]AssetCheck: New page: 애셋 저장: player_UI
+[2021.05.24-03.27.39:605][155]LogContentValidation: Display: WidgetBlueprint /Game/haze/UI/player_UI.player_UI 유효성 검사
+[2021.05.24-03.27.40:394][202]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.27.40:398][202]LogSlate: Window 'player_UI' being destroyed
+[2021.05.24-03.27.40:402][202]LogWorld: UWorld::CleanupWorld for World_167, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.27.40:402][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.40:407][202]LogWorld: UWorld::CleanupWorld for World_166, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.27.40:407][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.41:127][243]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.27.41:135][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.27.41:135][243]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:27:41)
+[2021.05.24-03.27.41:135][243]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.27.41:147][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011775s)
+[2021.05.24-03.27.41:147][243]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.27.41:148][243]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2021.05.24-03.27.41:148][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012917s)
+[2021.05.24-03.27.41:168][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.05.24-03.27.41:169][243]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.27.41:169][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.27.41:169][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.27.41:170][243]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.27.41:170][243]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.27.41:182][243]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.27.41:182][243]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.27.41:222][243]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.27.41:223][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.27.41:223][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.27.41:223][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.27.41:223][243]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.27.41:223][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.27.41:223][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.27.41:235][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.27.41:235][243]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.27.41:235][243]LogInit: FAudioDevice initialized.
+[2021.05.24-03.27.41:236][243]LogAudio: Display: Audio Device (ID: 79) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.27.41:242][243]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.27.41:243][243]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.27.41:243][243]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.27.41:243][243]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.27.41:244][243]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.27.41
+[2021.05.24-03.27.41:244][243]LogWorld: Bringing up level for play took: 0.001105
+[2021.05.24-03.27.41:244][243]LogOnline: OSS: Creating online subsystem instance for: :Context_198
+[2021.05.24-03.27.41:245][243]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.27.41:245][243]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.27.41:245][243]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.27.41:246][243]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.27.41:246][243]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.27.41:247][243]PIE: 에디터에서 플레이 총 시작 시간 0.116초입니다.
+[2021.05.24-03.27.46:877][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.27.46:877][577]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.27.46:878][577]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.27.46:878][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.46:884][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.27.46:889][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.27.46:905][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-03.27.46:905][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.27.46:906][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.27.46:922][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.27.46:925][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.05.24-03.27.46:938][578]LogPlayLevel: Display: Destroying online subsystem :Context_198
+[2021.05.24-03.27.48:723][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.05.24-03.27.48:744][683]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/SideScrollerExampleMap4A2BAF9747341ADFAB72DFA30CE76CD5.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2021.05.24-03.27.48:856][683]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/SideScrollerExampleMap_BuiltDataAAFC0D2B441AC3B66AA6E586BA416279.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2021.05.24-03.27.48:875][683]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2021.05.24-03.27.48:875][683]LogContentValidation: Display: MapBuildDataRegistry /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData 유효성 검사
+[2021.05.24-03.27.48:876][683]LogContentValidation: Display: World /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap 유효성 검사
