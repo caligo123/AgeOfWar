@@ -5940,3 +5940,99 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.24-03.21.01:016][648]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
 [2021.05.24-03.21.01:016][648]LogContentValidation: Display: MapBuildDataRegistry /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData 유효성 검사
 [2021.05.24-03.21.01:016][648]LogContentValidation: Display: World /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap 유효성 검사
+[2021.05.24-03.22.35:934][258]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.24-03.22.35:941][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-03.22.35:941][258]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 24. 오후 9:22:35)
+[2021.05.24-03.22.35:942][258]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.22.35:952][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009902s)
+[2021.05.24-03.22.35:953][258]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.24-03.22.35:953][258]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2021.05.24-03.22.35:953][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011307s)
+[2021.05.24-03.22.35:970][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.05.24-03.22.35:972][258]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-03.22.35:972][258]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-03.22.35:972][258]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-03.22.35:973][258]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-03.22.35:973][258]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-03.22.35:987][258]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-03.22.35:987][258]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-03.22.36:034][258]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.05.24-03.22.36:034][258]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-03.22.36:034][258]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-03.22.36:034][258]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-03.22.36:034][258]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-03.22.36:034][258]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-03.22.36:034][258]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-03.22.36:048][258]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-03.22.36:048][258]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-03.22.36:048][258]LogInit: FAudioDevice initialized.
+[2021.05.24-03.22.36:048][258]LogAudio: Display: Audio Device (ID: 70) registered with world 'SideScrollerExampleMap'.
+[2021.05.24-03.22.36:055][258]LogLoad: Game class is 'mouse_GameMode_C'
+[2021.05.24-03.22.36:056][258]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.HOUSE_MANAGER_25.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=0.250
+[2021.05.24-03.22.36:056][258]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.05.24-03.22.36:056][258]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.05.24-03.22.36:057][258]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.24-12.22.36
+[2021.05.24-03.22.36:057][258]LogWorld: Bringing up level for play took: 0.001247
+[2021.05.24-03.22.36:057][258]LogOnline: OSS: Creating online subsystem instance for: :Context_175
+[2021.05.24-03.22.36:059][258]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.22.36:059][258]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.24-03.22.36:059][258]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.22.36:059][258]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.24-03.22.36:059][258]PIE: 서버가 로그인했습니다.
+[2021.05.24-03.22.36:060][258]PIE: 에디터에서 플레이 총 시작 시간 0.122초입니다.
+[2021.05.24-03.22.41:368][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.22.41:368][573]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.24-03.22.41:369][573]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-03.22.41:369][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.22.41:377][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-03.22.41:397][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-03.22.41:413][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-03.22.41:413][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.22.41:414][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-03.22.41:432][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.24-03.22.41:460][574]LogPlayLevel: Display: Destroying online subsystem :Context_175
+[2021.05.24-03.22.44:323][746]LogEditorViewport: Clicking on Actor (LMB): TOWER_U_Blueprint_C (TOWER_U_Blueprint3)
+[2021.05.24-03.22.48:450][989]Cmd: DELETE
+[2021.05.24-03.22.48:450][989]Cmd: ACTOR DELETE
+[2021.05.24-03.22.48:452][989]LogEditorActor: Deleted Actor: TOWER_U_Blueprint_C
+[2021.05.24-03.22.48:453][989]LogEditorActor: Deleted Actor: TOWER_U_Blueprint_C
+[2021.05.24-03.22.48:454][989]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2021.05.24-03.22.48:454][989]LogEditorActor: Deleted Actor: TOWER_U_Blueprint_C
+[2021.05.24-03.22.48:469][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.05.24-03.22.48:471][989]LogEditorActor: Deleted 4 Actors (0.021 secs)
+[2021.05.24-03.22.49:495][ 51]Cmd: TRANSACTION UNDO
+[2021.05.24-03.22.49:495][ 51]LogEditorTransaction: Undo 액터 삭제
+[2021.05.24-03.22.50:988][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.05.24-03.22.51:520][163]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.05.24-03.22.52:103][198]LogEditorViewport: Clicking on Actor (LMB): TOWER_U_Blueprint_C (TOWER_U_Blueprint3)
+[2021.05.24-03.22.52:962][248]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.05.24-03.22.53:445][276]LogEditorViewport: Clicking on Actor (LMB): TOWER_U_Blueprint_C (TOWER_U_Blueprint3)
+[2021.05.24-03.22.54:137][316]Cmd: DELETE
+[2021.05.24-03.22.54:137][316]Cmd: ACTOR DELETE
+[2021.05.24-03.22.54:138][316]LogEditorActor: Deleted Actor: TOWER_U_Blueprint_C
+[2021.05.24-03.22.54:154][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.05.24-03.22.54:156][316]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.05.24-03.22.54:811][356]LogEditorViewport: Clicking on Actor (LMB): TOWER_U_Blueprint_C (TOWER_U_Blueprint2)
+[2021.05.24-03.22.55:050][369]Cmd: DELETE
+[2021.05.24-03.22.55:050][369]Cmd: ACTOR DELETE
+[2021.05.24-03.22.55:052][369]LogEditorActor: Deleted Actor: TOWER_U_Blueprint_C
+[2021.05.24-03.22.55:068][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.05.24-03.22.55:069][369]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.05.24-03.22.55:548][398]LogEditorViewport: Clicking on Actor (LMB): TOWER_U_Blueprint_C (TOWER_U_Blueprint)
+[2021.05.24-03.22.55:721][407]Cmd: DELETE
+[2021.05.24-03.22.55:721][407]Cmd: ACTOR DELETE
+[2021.05.24-03.22.55:722][407]LogEditorActor: Deleted Actor: TOWER_U_Blueprint_C
+[2021.05.24-03.22.55:738][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.24-03.22.55:739][407]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2021.05.24-03.22.56:809][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.05.24-03.22.56:830][470]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/SideScrollerExampleMap849E0E644402F9A0274591972CF1897D.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2021.05.24-03.22.56:940][470]LogSavePackage: Moving '../../../../../../univ/prj/AgeOfWar/p1/Saved/SideScrollerExampleMap_BuiltDataEF1E0CDF48F0A3B6907E70A56CC62A6D.tmp' to '../../../../../../univ/prj/AgeOfWar/p1/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2021.05.24-03.22.56:954][470]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2021.05.24-03.22.56:954][470]LogContentValidation: Display: MapBuildDataRegistry /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData 유효성 검사
+[2021.05.24-03.22.56:954][470]LogContentValidation: Display: World /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap 유효성 검사
